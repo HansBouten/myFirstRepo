@@ -21,6 +21,7 @@
 		0E87CB43181FBA44008B99E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E87CB25181FBA43008B99E1 /* UIKit.framework */; };
 		0E87CB4B181FBA44008B99E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E87CB49181FBA44008B99E1 /* InfoPlist.strings */; };
 		0E87CB4D181FBA44008B99E1 /* gitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87CB4C181FBA44008B99E1 /* gitUseExampleTests.m */; };
+		0E87CB58181FC2D1008B99E1 /* MapForIternerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87CB57181FC2D1008B99E1 /* MapForIternerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0E87CB48181FBA44008B99E1 /* gitUseExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitUseExampleTests-Info.plist"; sourceTree = "<group>"; };
 		0E87CB4A181FBA44008B99E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E87CB4C181FBA44008B99E1 /* gitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitUseExampleTests.m; sourceTree = "<group>"; };
+		0E87CB56181FC2D1008B99E1 /* MapForIternerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForIternerary.h; sourceTree = "<group>"; };
+		0E87CB57181FC2D1008B99E1 /* MapForIternerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForIternerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				0E87CB37181FBA43008B99E1 /* ViewController.m */,
 				0E87CB39181FBA43008B99E1 /* Images.xcassets */,
 				0E87CB28181FBA43008B99E1 /* Supporting Files */,
+				0E87CB56181FC2D1008B99E1 /* MapForIternerary.h */,
+				0E87CB57181FC2D1008B99E1 /* MapForIternerary.m */,
 			);
 			path = gitUseExample;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				0E87CB38181FBA43008B99E1 /* ViewController.m in Sources */,
 				0E87CB32181FBA43008B99E1 /* AppDelegate.m in Sources */,
 				0E87CB2E181FBA43008B99E1 /* main.m in Sources */,
+				0E87CB58181FC2D1008B99E1 /* MapForIternerary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
